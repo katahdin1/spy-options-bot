@@ -1,0 +1,9 @@
+streamlit
+schedule
+python-dotenv
+requests
+pyyaml
+flask
+yfinance
+matplotlib
+pandas

@@ -1,0 +1,22 @@
+bot:
+  active: true
+  daily_report_time: "16:00"
+
+sstrategies:
+  enabled:
+    - rsi_strategy
+    - moving_avg_strategy
+    - macd_strategy
+    - bollinger_strategy
+    - ema_crossover
+  weights:
+    rsi_strategy: 0.6
+    moving_avg_strategy: 1.0
+    macd_strategy: 0.9
+    bollinger_strategy: 0.8
+    ema_crossover: 0.7
+
+
+
+report:
+  send_email: false
