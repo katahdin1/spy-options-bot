@@ -21,7 +21,7 @@ st.markdown(f"**Current Status:** {status_text}")
 
 if st.button("🔄 Toggle Bot"):
     set_bot_state(not bot_status)
-    st.experimental_rerun()
+    st.rerun()
 
 # --- MANUAL SIGNAL ---
 st.subheader("⚡ Run Signal Generator")
