@@ -158,3 +158,17 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+# Replit-specific
+.replit
+replit.nix
+*.repl-history
+*.replit.lock*
+
+# Bot logs & state
+logs/
+data/*.csv
+data/*.json
+*.db
+
+# Streamlit secrets
+.streamlit/secrets.toml
